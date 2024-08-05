@@ -6,7 +6,7 @@ from random import randint
 import pandas as pd
 
 # Number of simulations
-s = 1000
+s = 10000
 
 big_prices = []
 for sim in range(s):
@@ -17,8 +17,8 @@ for sim in range(s):
     w = 100
 
     # Initial reserves of the AMM
-    y = 75
-    n = 25
+    y = 1000
+    n = 1000
 
     # Population size
     size = 10
