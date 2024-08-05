@@ -1,6 +1,6 @@
 **Prediction markets model**
 
-To run the code:
+The simulations are conducted in Python. To run the code:
 
 (1) Install the required modules (see lines 3-6)
 
