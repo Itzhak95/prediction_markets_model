@@ -6,4 +6,4 @@ To run the code:
 
 (2) Set the number of desired simulations $s$ (in the paper, $s = 10,000$).
 
-(3) Set the market parameters: $w$, $y$, $n$, size, final_time, man_time, and $l$.
+(3) Set the market parameters: $w$, $y$, $n$, size, final_time, man_time, and $l$ (these parameters are pre-set to the baseline case).
