@@ -3,7 +3,6 @@
 import numpy as np
 import math
 from random import randint
-import pandas as pd
 
 # Number of simulations
 s = 10000
@@ -185,19 +184,3 @@ print('Average prices')
 
 for element in average_prices:
     print(element)
-
-# print(' ')
-# print('High prices')
-#
-# for element in high_prices:
-#     print(element)
-#
-# print(' ')
-# print('Low prices')
-
-# for element in low_prices:
-#     print(element)
-
-df = pd.DataFrame(big_prices)
-
-df.to_excel('output.xlsx', index=False, header=False)
