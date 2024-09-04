@@ -10,7 +10,7 @@ s = 10000
 big_prices = []
 for sim in range(s):
 
-    # SET THE INITIAL PARAMETERS
+    # REFRESH THE INITIAL PARAMETERS
 
     # Initial wealth
     w = 100
